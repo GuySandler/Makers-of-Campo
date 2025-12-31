@@ -68,6 +68,38 @@ a:hover {
     color: #2980b9;
 }
 
+.back-link {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #2980b9;
+    text-decoration: none;
+}
+
+.submit-link {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.submit-link:hover {
+    background-color: #229954;
+    text-decoration: none;
+}
+
 .announcements {
     background-color: #fff;
     padding: 20px;
